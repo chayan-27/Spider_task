@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/stonepap">
+
+    <EditText
+        android:id="@+id/one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:hint="Player 1"
+        android:background="@drawable/round"
+        android:ems="10"/>
+
+    <EditText
+        android:id="@+id/two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:background="@drawable/round"
+        android:layout_marginTop="150dp"
+        android:gravity="center"
+       android:hint="Player 2"
+       />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:ems="10"
+       android:hint="No. of rounds"
+        android:gravity="center"
+        android:background="@drawable/round"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:text="START"
+        android:background="@drawable/roundbtn"/>
+    <Button
+        android:id="@+id/singlee"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="310dp"
+        android:text="SINGLE PLAYER MODE"
+        android:onClick="single"
+        android:background="@drawable/roundbtn"/>
+</RelativeLayout>
