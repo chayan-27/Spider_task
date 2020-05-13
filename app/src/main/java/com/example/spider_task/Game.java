@@ -249,18 +249,7 @@ public class Game extends AppCompatActivity {
 
 
     }
-
-
-
-  /*  @Override
-    protected void onRestoreInstanceState(@NonNull Bundle savedInstanceState) {
-        super.onRestoreInstanceState(savedInstanceState);
-        score1=savedInstanceState.getInt("score1");
-        score2=savedInstanceState.getInt("score2");
-        r=savedInstanceState.getInt("rounds");
-    }*/
-
-    protected void onSaveInstanceState(Bundle outState) {
+  protected void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
        outState.putInt("score1", score1);
         outState.putInt("score2", score2);
